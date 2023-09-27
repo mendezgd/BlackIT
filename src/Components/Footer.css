@@ -28,8 +28,9 @@ h2 {
 }
 
 .containerFooter {
-    background-color: #0f1214;
-    margin: 3rem;
+    background-color: #000100;
+    padding: 1rem;
+    margin-top: 3rem;
 }
 
 .footerLink {
