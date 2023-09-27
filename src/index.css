@@ -1,0 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Holtwood+One+SC&family=Lobster&family=Oswald:wght@200&family=Press+Start+2P&family=Roboto:wght@300&family=Special+Elite&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap');
+
+body {
+    overflow-x: hidden;
+    font-family: 'Roboto Condensed', sans-serif;
+    background-color: #0f1214;
+}

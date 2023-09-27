@@ -1,0 +1,29 @@
+.Servicios {
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin: 3rem;
+}
+
+.card {
+    border-color: #0f1214;
+    border-radius: 10px;
+    background-color: #EBEBEB;
+}
+
+.card img {
+    width: 100%;
+    min-height: 180px;
+    
+}
+
+.linkCard {
+    text-decoration: none;
+    color: #0f1214;
+    opacity: 0.8;
+}
+
+.linkCard:hover {
+    opacity: 1;
+    transition: 0.4s;
+}

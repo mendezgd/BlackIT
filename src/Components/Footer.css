@@ -1,0 +1,43 @@
+.derechos {
+    color: white;
+}
+
+.containerDerechos {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+}
+
+.containerDerechos img {
+    color: white;
+    max-width: 0.7rem;
+    max-height: 0.7rem;
+    margin: 0.2rem;
+}
+
+.containerDerechos p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+}
+
+h2 {
+    text-align: center;
+    color: white;
+}
+
+.containerFooter {
+    background-color: #0f1214;
+    margin: 3rem;
+}
+
+.footerLink {
+    text-decoration: none;
+
+}
+
+.footerLink h2:hover {
+    color: #3498db;
+    transition: 0.2s;
+}
