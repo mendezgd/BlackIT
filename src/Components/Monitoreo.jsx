@@ -1,14 +1,12 @@
 import React from "react";
-import Footer from "./Footer";
-import Header from "./Header";
 import './Monitoreo.css';
 
 const Monitoreo = () => {
 
     return (
         <div>
-            <Header />
             <h2 className="subtitulo">Monitoreo</h2>
+            <h3 className="subsub">Nuestro pilar es la plataforma Check_MK, pudiendo configurarse a medida de nuestros clientes.</h3>
             <div className="contenedorCards">
                 <div className="card" style={{ maxWidth: '24rem' }}>
                     <img src="./checkmk.jpeg" className="card-img-top" alt="checkmk" />
@@ -32,7 +30,6 @@ const Monitoreo = () => {
                     </div>
                 </div>
             </div>
-            <Footer />
         </div>
     );
 }

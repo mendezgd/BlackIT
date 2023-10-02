@@ -24,7 +24,7 @@ function ServiceCard() {
                             </div>
                         </div>
                     </Link>
-                    <Link className="linkCard col-12 mb-3" to="/IA">
+                    <Link className="linkCard col-12 mb-3" to="/AI">
                         <div className="card" style={{ maxWidth: '800px', minHeight: '180px' }}>
                             <div className="row g-0">
                                 <div className="col-md-4">

@@ -1,14 +1,12 @@
 import React from "react";
-import Footer from "./Footer";
-import Header from "./Header";
 import "./IT.css";
 
 const IT = () => {
 
     return (
         <>
-            <Header />
             <h2 className="subtitulo">Consultoría estratégica de IT</h2>
+            <h3 className="subsub">Nos especializamos en encontrar la mejor solución para todas sus necesidades en tecnología.</h3>
             <div className="contenedorCards">
                 <div className="card" style={{ maxWidth: '20rem', maxHeight: '30rem' }}>
                     <img src="./integracion.jpg" className="card-img-top" alt="integracion" />
@@ -39,7 +37,6 @@ const IT = () => {
                     </div>
                 </div>
             </div>
-            <Footer />
         </>
     );
 }

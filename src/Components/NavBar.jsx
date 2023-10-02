@@ -18,10 +18,26 @@ const NavBar = () => {
                                 <Link className="nav-link" to="/">Inicio</Link>
                             </li>
                             <li className="nav-item">
-                                <Link className="nav-link" to="/Servicios">Servicios</Link>
+                                <a className="nav-link" href="#contacto">Contacto</a>
                             </li>
-                            <li className="nav-item">
-                                <Link className="nav-link" to="/Contacto">Contacto</Link>
+                            <li className="nav-item dropdown">
+                                <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Servicios
+                                </a>
+                                <ul className="dropdown-menu">
+                                    <li><Link className="dropdown-item" to="/Monitoreo">
+                                        Monitoreo
+                                    </Link></li>
+                                    <li><Link className="dropdown-item" to="/AI">
+                                        AI
+                                    </Link></li>
+                                    <li><Link className="dropdown-item" to="/Cloud">
+                                        Cloud Solutions
+                                    </Link></li>
+                                    <li><Link className="dropdown-item" to="/IT">
+                                        Consultoría de TI
+                                    </Link></li>
+                                </ul>
                             </li>
                         </ul>
                     </div>
