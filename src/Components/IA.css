@@ -9,7 +9,8 @@
     min-height: 13rem;
 }
 
-.card h5, p {
+.card h5,
+p {
     text-align: center;
 }
 
