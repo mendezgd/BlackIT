@@ -13,7 +13,7 @@ const Cloud = () => {
                     <img src="./aws.jpg" className="card-img-top" alt="checkmk" />
                     <h5 className="card-title">AWS</h5>
                     <div className="card-body">
-                        <p className="card-text">Ayudamos a las compañías a realizar una transición exitosa hacia la Nube.</p>
+                        <p className="card-text">Transforme sus operaciones y aplicaciones tradicionales en soluciones ágiles y escalables en la nube de AWS.</p>
                     </div>
                 </div>
                 <div className="card" style={{ maxWidth: '20rem', maxHeight: '30rem' }}>
