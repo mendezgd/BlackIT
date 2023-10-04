@@ -10,18 +10,21 @@
 .subtitulo {
     display: flex;
     justify-content: center;
-    margin: 3rem;   
+    margin: 3rem;
+    text-decoration-line: underline;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 0.3rem
 }
 
 .card {
     margin: 1rem;
     min-height: 13rem;
-
 }
 
 .card h5,
 p {
     text-align: center;
+
 }
 
 .card img {

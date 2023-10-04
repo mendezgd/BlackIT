@@ -4,10 +4,12 @@
 
 .containerDerechos {
     display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
+    margin-top: 2rem;
     align-content: center;
+    flex-wrap: wrap;
     justify-content: center;
+    align-items: stretch;
+    margin-top: 2rem;
 }
 
 .containerDerechos img {
@@ -28,17 +30,36 @@ h2 {
 }
 
 .containerFooter {
-    background-color: #000100;
+    background-color: #0e1113;
     padding: 1rem;
     margin-top: 3rem;
 }
 
 .footerLink {
     text-decoration: none;
-
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-end;
 }
 
 .footerLink h2:hover {
     color: #3498db;
     transition: 0.2s;
+}
+
+.blackitFoot {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.logoFoot {
+    max-width: 3rem;
+    margin: 0.7rem;
+    margin-top: 1rem;
 }

@@ -14,13 +14,14 @@
 .card img {
     width: 100%;
     min-height: 180px;
-    
+
 }
 
 .linkCard {
     text-decoration: none;
     color: #0f1214;
     opacity: 0.8;
+
 }
 
 .linkCard:hover {

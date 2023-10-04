@@ -6,7 +6,7 @@ const Footer = () => {
     return (
         <>
             <div className="containerFooter">
-                <Link className="footerLink" to={"/"}><h2>Black It</h2></Link>
+                <Link className="footerLink" to={"/"}><img className="logoFoot" src="logopox.png" alt="logo" /><h2>Black It</h2></Link>
                 <div className="containerDerechos">
                     <img src="./copy2.png" alt="copyright" />
                     <p className="derechos">Todos los derechos reservados</p>
