@@ -13,18 +13,24 @@
 
 .card img {
     width: 100%;
-    min-height: 180px;
-
+    min-height: 200px;
 }
 
 .linkCard {
     text-decoration: none;
     color: #0f1214;
     opacity: 0.8;
-
 }
 
 .linkCard:hover {
     opacity: 1;
     transition: 0.4s;
+}
+
+.contenedorServicios {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-evenly;
 }
