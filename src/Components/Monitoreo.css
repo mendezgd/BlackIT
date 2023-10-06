@@ -48,3 +48,8 @@ p {
     margin: 3rem;
     font-size: large;
 }
+
+h2 {
+    text-align: center;
+    color: white;
+}
