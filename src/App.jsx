@@ -10,7 +10,7 @@ import Monitoreo from './Components/Monitoreo'
 import Contacto from './Components/Contacto'
 import Footer from './Components/Footer'
 import Header from './Components/Header'
-import ScrollToTop from "./components/ScrollToTop";
+import ScrollToTop from "./Components/ScrollToTop";
 
 function App() {
 
