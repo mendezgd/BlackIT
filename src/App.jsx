@@ -18,9 +18,9 @@ function App() {
 
       <div className="App">
         <BrowserRouter>
-          <ScrollToTop />
           <NavBar />
           <Header />
+          <ScrollToTop />
           <Routes>
             <Route path='/' element={<Inicio />} />
             <Route path='/Monitoreo' element={<Monitoreo />} />
