@@ -1,5 +1,5 @@
 .Servicios {
-    color: white;
+    color: #141414;
     display: flex;
     justify-content: center;
     margin: 3rem;
@@ -8,7 +8,7 @@
 .card {
     border-color: #0f1214;
     border-radius: 10px;
-    background-color: #EBEBEB;
+    background-color: #f6f6f6;
 }
 
 .card img {
