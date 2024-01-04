@@ -11,20 +11,25 @@
     display: flex;
     justify-content: center;
     margin: 3rem;
-    text-decoration-line: underline;
-    text-decoration-thickness: 1px;
-    text-underline-offset: 0.3rem
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: bold;
 }
 
-.card {
-    margin: 1rem;
-    min-height: 13rem;
+.subsub {
+    color: #141414;
+    display: flex;
+    justify-content: center;
+    margin: 2rem;
+    font-size: 22px;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 300;
 }
 
 .card h5,
 p {
     text-align: center;
-
+    color: #141414;
+    font-weight: 300;
 }
 
 .card img {
@@ -33,23 +38,11 @@ p {
 }
 
 .card h5 {
+    font-family: 'Roboto Slab', serif;
+    font-weight: bolder;
     margin: 1rem;
 }
 
 .card p {
-    font-weight: lighter;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-.subsub {
-    color: #141414;
-    display: flex;
-    justify-content: center;
-    margin: 3rem;
-    font-size: large;
-}
-
-h2 {
-    text-align: center;
-    color: #141414;
+    font-family: 'Roboto Slab', serif;
 }
