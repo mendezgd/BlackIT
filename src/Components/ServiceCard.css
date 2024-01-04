@@ -22,12 +22,11 @@
 .linkCard {
     text-decoration: none;
     color: #0f1214;
-    opacity: 0.9;
 }
 
-.linkCard:hover {
-    opacity: 1;
-    transition: 0.4s;
+.linkCard .card:hover {
+    background-color: #fee35d;
+    transition-duration: 1s;
 }
 
 .contenedorServicios {
