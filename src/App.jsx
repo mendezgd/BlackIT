@@ -13,25 +13,22 @@ import Header from './Components/Header'
 import ScrollToTop from "./Components/ScrollToTop";
 
 function App() {
-
   return (
-
-      <div className="App">
-        <BrowserRouter>
-          <NavBar />
-          <Header />
-          <ScrollToTop />
-          <Routes>
-            <Route path='/' element={<Inicio />} />
-            <Route path='/Monitoreo' element={<Monitoreo />} />
-            <Route path='/AI' element={<IA />} />
-            <Route path='/Cloud' element={<Cloud />} />
-            <Route path='/IT' element={<IT />} />
-          </Routes>
-          <Contacto id="contacto" />
-          <Footer />
-        </BrowserRouter>
-      </div>
+    <div className="App">
+      <BrowserRouter>
+        <NavBar />
+        <ScrollToTop />
+        <Routes>
+          <Route path='/' element={<><Header /><Inicio /></>} />
+          <Route path='/Monitoreo' element={<Monitoreo />} />
+          <Route path='/AI' element={<IA />} />
+          <Route path='/Cloud' element={<Cloud />} />
+          <Route path='/IT' element={<IT />} />
+        </Routes>
+        <Contacto id="contacto" />
+        <Footer />
+      </BrowserRouter>
+    </div>
   )
 }
 
