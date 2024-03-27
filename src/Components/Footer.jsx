@@ -14,7 +14,6 @@ const Footer = () => {
                     <p className="derechos">Todos los derechos reservados</p>
                 </div>
             </Link>
-
         </div>
     );
 }

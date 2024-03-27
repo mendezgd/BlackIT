@@ -58,3 +58,8 @@
 .logoFoot {
     max-width: 6rem;
 }
+
+.info {
+    color: white;
+    font-weight: 200;
+}

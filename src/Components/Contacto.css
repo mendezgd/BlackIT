@@ -27,7 +27,7 @@
 .botoncito {
     font-family: inherit;
     font-size: 15px;
-    background: linear-gradient(to bottom, #4dc7d9 0%, #66a6ff 100%);
+    background: linear-gradient(to bottom, #000000 0%, #515151 100%);
     color: white;
     padding: 0.8em 1.2em;
     display: flex;
